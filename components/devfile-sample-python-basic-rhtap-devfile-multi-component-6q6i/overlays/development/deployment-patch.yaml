@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-rhtap-devfile-multi-component-6q6i
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-svdb-tenant/mc-two-scenarios/devfile-sample-python-basic-rhtap-devfile-multi-component-6q6i@sha256:7f05d5f5ce8ead46697a5ec49e22af2f994ef98f3b900ebf9bc34988237dfe13
+        name: my-python
+        resources: {}
+status: {}
